@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Sparkles, Lightbulb, ScrollText } from 'lucide-react';
+import { Sparkles, Lightbulb } from 'lucide-react';
 import { getCulturalInsight, suggestEtiquette } from '../services/geminiService';
 
 interface CulturalGuideProps {

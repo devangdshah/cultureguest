@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Wand2, Image as ImageIcon, Calendar, MapPin } from 'lucide-react';
+import { Wand2, Image as ImageIcon, Calendar } from 'lucide-react';
 import { generateEventDescription } from '../services/geminiService';
 import { EventCategory } from '../types';
 
